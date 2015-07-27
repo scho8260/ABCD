@@ -261,10 +261,16 @@ color:rgb(174, 174, 174)
   padding-left: 10px;
   padding-right: 10px;
 }
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 1024px)  {
 
-    .cp-show-small-device {
-      display: block !important;
+    .mdl-mini-footer {
+      display: none !important;
+    }
+
+    .mdl-mini-footer:after {
+
+        display: none !important;
+      
     }
 
 }
