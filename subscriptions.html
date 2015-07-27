@@ -1,0 +1,266 @@
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="ABCD">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ABCD</title>
+
+    <!-- Page styles -->
+    <link rel="stylesheet" href="https://storage.googleapis.com/code.getmdl.io/1.0.0/material.blue_grey-red.min.css" />
+    <script src="https://storage.googleapis.com/code.getmdl.io/1.0.0/material.min.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="abcd_styles.css"/>
+  </head>
+  <body>
+    <!-- Always shows a header, even in smaller screens. -->
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header" >
+      <header class="mdl-layout__header">
+        <div class="mdl-layout__header-row ">
+
+          <!-- Navigation. We hide it in small screens. -->
+          <nav class="mdl-navigation mdl-layout--large-screen-only" id="primary_nav_wrap">
+            <ul>
+            <li><a class="mdl-navigation__link "href="abcd.html">Home</a></li>
+            <li><a class="mdl-navigation__link" href="groups.html">Groups</a>
+              <div class="mega-menu">
+              <ul>
+                <div class="float-left mega-content">
+                <li><a href="#">ABCD Main</a></li>
+                <li><a href="#">BRIO</a></li>
+                <li><a href="#">Digital Publishing</a></li>
+                <li><a href="#">FileMaker</a></li>
+                <li><a href="#">GIS</a></li>
+                </div>
+                <div class="float-left mega-content">
+                <li><a href="#">Interactive</a></li>
+                <li><a href="#">Library</a></li>
+                <li><a href="#">Longwood Medical Area</a></li>
+                <li><a href="#">MS Windows</a></li>
+                <li><a href="#">Macintosh</a></li>
+                </div>
+                <div class="float-left mega-content">
+                <li><a href="#">Mobile</a></li>
+                <li><a href="#">Open Scholar</a></li>
+                <li><a href="#">Security</a></li>
+                <li><a href="#">Tech in Education</a></li>
+                <li><a href="#">Video/Multimedia</a></li>
+                </div>
+                <div class="float-left mega-content">
+                <li><a href="visualization.html">Visualization</a></li>
+                <li><a href="#">Women in Tech</a></li>
+                <li><a href="#">WWW</a></li>
+                <li><a href="#">Other Groups</a></li>
+                <li><a href="#">Defunct Groups</a></li>
+                </div>
+              </ul>
+            </div>
+            </li>
+            <li><a class="mdl-navigation__link " href="meetings.html">Meetings</a>
+            <div class="mega-menu">
+            <ul class="small-menu">
+              <div class="float-left mega-content">
+              <li><a href="calendar.html">Calendar</a></li>
+              <li><a href="minutes.html">Minutes</a></li>
+              </div>
+            </ul>
+          </div>
+          </li>
+            <li><a class="mdl-navigation__link selected" href="account.html">Account</a>
+              <div class="mega-menu">
+              <ul class="small-menu">
+                <div class="float-left mega-content">
+                <li><a href="account.html">My Account</a></li>
+                <li><a class="selected" href="subscriptions.html ">Email Subscriptions</a></li>
+                </div>
+              </ul>
+              </div
+            </li>
+            <li><a class="mdl-navigation__link" href="#">More</a>
+            <div class="mega-menu">
+            <ul class="small-menu">
+              <div class="float-left mega-content">
+              <li><a href="history.html">History</a></li>
+              <li><a href="jobs.html">Jobs & Training Resources</a></li>
+              <li><a href="vendors.html">Vendors</a></li>
+              <li><a href="multimedia.html">Multimedia Fair Archives</a></li>
+              <li><a href="rsi.html">RSI</a></li>
+              <li><a href="forge.html">Forge</a></li>
+
+              </div>
+            </ul>
+          </div></li>
+          </ul>
+
+                                  <div class="mdl-textfield mdl-js-textfield mdl-textfield--expandable
+                                    mdl-textfield--floating-label mdl-textfield--align-right">
+                                    <label class="mdl-button mdl-js-button mdl-button--icon" for="fixed-header-drawer-exp">
+                                  <i class="material-icons cp-search-icon">search</i>
+                                    </label>
+                                    <div class="mdl-textfield__expandable-holder">
+                                        <input class="mdl-textfield__input" type="text" name="sample" id="fixed-header-drawer-exp" />
+                                    </div>
+                                </div>
+          </nav>
+          <!-- Add spacer, to align navigation to the right -->
+          <div class="mdl-layout-spacer"></div>
+          <!-- Title -->
+          <span class="mdl-layout-title logo" title="Harvard University's ABCD Committee"></span>
+      </header>
+
+
+            <main class="mdl-layout__content">
+              <div class="page-content">
+
+
+                <div class="mdl-grid">
+                  <div class="mdl-cell mdl-cell--12-col">
+                          <div class="mdl-card mdl-shadow--2dp large-card">
+                          <div class="mdl-card__title">
+                            <h2 class="mdl-card__title-text">Manage Subscriptions</h2>
+                          </div>
+                          <div class="mdl-card__supporting-text">
+                            <table class="mdl-data-table mdl-js-data-table mdl-data-table--selectable mdl-shadow--2dp">
+                              <thead>
+                                <tr>
+                                  <th class="mdl-data-table__cell--non-numeric">Group Name</th>
+                                  <th class="mdl-data-table__cell--non-numeric">Description</th>
+                                  <th class="mdl-data-table__cell--non-numeric">Email</th>
+
+                                </tr>
+                              </thead>
+                              <tbody>
+                                <tr>
+                                  <td class="mdl-data-table__cell--non-numeric"><a href="#">Announcements</a></td>
+                                  <td class="mdl-data-table__cell--non-numeric">
+                                  ABCD Announce is a mailing list for posting subgroup meeting announcements. ABCD members who do not wish to join a lot of mailing lists can subscribe to abcd-announce to be informed of subgroup meetings.
+                                  </td>
+                                  <td class="mdl-data-table__cell--non-numeric">
+                                  <a href="mailto:abcd-announcements@abcd.harvard.edu">
+                                  <i class="material-icons">email</i></a></td>
+
+                                </tr>
+                                <tr>
+                                  <td class="mdl-data-table__cell--non-numeric"><a href="#">Bioinformatics</a></td>
+                                  <td class="mdl-data-table__cell--non-numeric">
+                                    The ABCD Bioinformatics group concerns itself with the intersection of computation and biology.
+                                  </td>
+                                  <td class="mdl-data-table__cell--non-numeric">
+                                  <a href="mailto:abcd-bioinfo@abcd.harvard.edu">
+                                  <i class="material-icons">email</i></a></td>
+                                </tr>
+                                <tr>
+                                  <td class="mdl-data-table__cell--non-numeric"><a href="#">BRIO</a></td>
+                                  <td class="mdl-data-table__cell--non-numeric">This list is for discussion of the BRIO query tool
+                                  </td>
+                                  <td class="mdl-data-table__cell--non-numeric"><a href="mailto:abcd-brio@abcd.harvard.edu">
+                                  <i class="material-icons">email</i></a></td>
+
+                                </tr>
+                                <tr>
+                                  <td class="mdl-data-table__cell--non-numeric"><a href="#">Cloud Computing</a></td>
+                                  <td class="mdl-data-table__cell--non-numeric">
+                                    This group will undertake anything cloud at Harvard and is open to all the schools, students, faculty, staff, ... This group will be a forum to share information across Harvard.
+                                  </td>
+                                  <td class="mdl-data-table__cell--non-numeric"><a href="mailto:abcd-cloud@abcd.harvard.edu">
+                                  <i class="material-icons">email</i></a></td>
+                                </tr>
+                                <tr>
+                                  <td class="mdl-data-table__cell--non-numeric"><a href="#">Cluster Computing</a></td>
+                                  <td class="mdl-data-table__cell--non-numeric">
+                                  The Cluster Computing group provides a forum to explore the issues and interests surrounding Cluster Computing. These are fairly broad issues and interests that may span other ABCD groups as well.
+                                  </td>
+                                  <td class="mdl-data-table__cell--non-numeric"><a href="mailto:abcd-cluster@abcd.harvard.edu">
+                                  <i class="material-icons">email</i></a></td>
+                                </tr>
+                                <tr>
+                                  <td class="mdl-data-table__cell--non-numeric"><a href="#">Realtime Communications</a></td>
+                                  <td class="mdl-data-table__cell--non-numeric">
+                                    This group is for anyone (in any role at Harvard) interested in: Learning about marketing/communications initiatives and resources, Pooling knowledge about concepts, best practices, tools, and vendors, Building a network of marketing professionals, etc.
+                                  </td>
+                                  <td class="mdl-data-table__cell--non-numeric"><a href="mailto:abcd-communications@abcd.harvard.edu">
+                                  <i class="material-icons">email</i></a></td>
+                                </tr>
+                                <tr>
+                                  <td class="mdl-data-table__cell--non-numeric"><a href="#">Digital Asset Management Systems</a></td>
+                                  <td class="mdl-data-table__cell--non-numeric">
+                                    This group will meet to determine what types of digital asset management systems are needed or in use throughout the university and how we can capitalize on our common requirements.
+                                  </td>
+                                  <td class="mdl-data-table__cell--non-numeric"><a href="mailto:abcd-dams@abcd.harvard.edu">
+                                  <i class="material-icons">email</i></a></td>
+                                </tr>
+
+                                <tr>
+                                  <td class="mdl-data-table__cell--non-numeric"><a href="#">DEC/Compaq</a></td>
+                                  <td class="mdl-data-table__cell--non-numeric">
+                                    The DEC group is a holdover from the days when Harvard and its affiliates were primarily a Digital shop. Through the years this has changed, however, there is still a significant amount of Compaq (aka DEC) hardware and software in active use.                                </td>
+                                  <td class="mdl-data-table__cell--non-numeric"><a href="mailto:abcd-dec@abcd.harvard.edu">
+                                  <i class="material-icons">email</i></a></td>
+                                </tr>
+
+                              <tr>
+                                <td class="mdl-data-table__cell--non-numeric"><a href="#">Graphic Design</a></td>
+                                <td class="mdl-data-table__cell--non-numeric">
+                                  This group will be concerned with graphic design for print and the web, user experience, marketing, interactive design, and information architecture.
+                                </td>
+                                <td class="mdl-data-table__cell--non-numeric"></td>
+                              </tr>
+                              <tr>
+                                <td class="mdl-data-table__cell--non-numeric"><a href="#">Digital Publishing</a></td>
+                                <td class="mdl-data-table__cell--non-numeric">
+                                  The Harvard Digital Publishing Collaborative is an ABCD staff affinity group with a focus on how content is authored, produced, secured, and delivered across web- and device-based content platforms.
+                                                                </td>
+                                <td class="mdl-data-table__cell--non-numeric"></td>
+                              </tr>
+
+                              <tr>
+                                <td class="mdl-data-table__cell--non-numeric"><a href="#">Technology in Education</a></td>
+                                <td class="mdl-data-table__cell--non-numeric">
+                                  The Technology in Education working group is a Harvard staff affinity group whose focus is on innovative uses of technology in teaching and learning.
+                                <td class="mdl-data-table__cell--non-numeric"></td>
+                              </tr>
+                              <tr>
+                                <td class="mdl-data-table__cell--non-numeric"><a href="#">Email</a></td>
+                                <td class="mdl-data-table__cell--non-numeric">
+                                  The Email working group addresses issues pretaining to supporting e-mail within the University and affiliates.
+                                <td class="mdl-data-table__cell--non-numeric"><a href="mailto:abcd-email@abcd.harvard.edu">
+                                <i class="material-icons">email</i></a></td>
+                              </tr>
+                              <tr>
+                                <td class="mdl-data-table__cell--non-numeric"><a href="#">Engineering</a></td>
+                                <td class="mdl-data-table__cell--non-numeric">
+                                  The ABCD Engineering Working Group is a forum where engineers working at Harvard and the affiliated institutions, that design and develop hardware, can share ideas and expertise.
+                                <td class="mdl-data-table__cell--non-numeric"><a href="mailto:abcd-eng@abcd.harvard.edu">
+                                <i class="material-icons">email</i></a></td>
+                              </tr>
+
+
+
+                              </tbody>
+                            </table>
+                          </div>
+                        </div>
+
+                  </div>
+                </div>
+
+              </div>
+            </main>
+
+
+
+                <footer class="mdl-mini-footer">
+                  <div class="mdl-mini-footer--left-section">
+                    <div class="mdl-logo">ABCD Committee</div>
+                  </div>
+                  <div class="mdl-mini-footer--right-section">
+                    <ul class="mdl-mini-footer--link-list ">
+                      <li><a class="footer-link" href="http://www.harvard.edu/">Harvard Home Page</a></li>
+                      <li><a class="footer-link"href="mailto:abcdhelp@abcd.harvard.edu">Help</a></li>
+                      <li>&copy; 2015 by the President and Fellows of Harvard College</li>
+                    </ul>
+                  </div>
+                </footer>
+              </div>
+              </body>
+            </html>

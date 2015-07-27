@@ -1,0 +1,270 @@
+.logo {
+  background-image: url('ABCD_images/Logo.png');
+  height: 100px;
+  width: 200px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: 0;
+  float: right;
+}
+
+.delete {
+  color: red;
+  font-weight: bold;
+  position: absolute;
+  right: 20;
+  top: 20;
+}
+
+.mdl-textfield {
+  margin-right: 10px;
+}
+
+.mdl-data-table {
+  white-space: normal;
+}
+a:hover {
+  color: darkred;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+.mdl-layout__header {
+  background-color: #eeeeee;
+}
+
+.mdl-layout__header-row .mdl-navigation__link {
+  color: black;
+  line-height: 40px;
+}
+
+.mdl-layout__header-row .mdl-navigation {
+  -webkit-align-items: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  vertical-align: bottom;
+  height: 0px;
+  margin-bottom: -20px;
+}
+
+#primary_nav_wrap ul
+{
+	list-style:none;
+	position:relative;
+	float:left;
+	margin:0;
+	padding:0
+}
+
+#primary_nav_wrap ul a
+{
+	display:block;
+	text-decoration:none;
+}
+
+#primary_nav_wrap ul li
+{
+	position:relative;
+	float:left;
+	margin:0;
+	padding:0
+}
+
+#primary_nav_wrap ul li.current-menu-item
+{
+	background:#ddd
+}
+
+#primary_nav_wrap ul li:hover
+{
+color: darkred !important;
+background: #fff;
+}
+
+.mega-menu {
+  width: 100%;
+}
+
+.selected {
+  color: darkred !important;
+  font-weight: 700;
+}
+
+.small-menu {
+  width: 210px !important;
+}
+
+#primary_nav_wrap ul div ul
+{
+	display:none;
+	position:absolute;
+  list-style:none;
+	top:100%;
+	left:0;
+	background:#fff;
+	padding:0px;
+  width: 700px;
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,.14),0 3px 1px -2px rgba(0,0,0,.2),0 1px 5px 0 rgba(0,0,0,.12);
+}
+
+.mega-content {
+  width: auto;
+  padding-right: 20px;
+}
+
+
+#primary_nav_wrap ul div ul li
+{
+	float:none;
+}
+
+#primary_nav_wrap ul div ul a
+{
+	line-height:120%;
+	padding:10px;
+}
+
+#primary_nav_wrap ul div ul ul
+{
+	top:0;
+	left:100%
+}
+
+#primary_nav_wrap ul li:hover > div ul
+{
+	display:block;
+}
+
+#primary_nav_wrap ul li:hover > .mega-menu
+{
+	display:block;
+}
+
+.float-left {
+  float: left;
+}
+
+.float-right {
+  float: right;
+}
+
+.new-account {
+  line-height: 40px;
+  text-decoration: none;
+}
+
+.new-account:hover {
+  color: darkred;
+}
+
+  .mdl-layout__header-row {
+    height: 100px;
+    padding: 0px;
+  }
+
+.drawer-separator {
+  height: 1px;
+  background-color: #dcdcdc;
+  margin: 8px 0;
+}
+
+.mdl-mini-footer {
+  padding: 10px; !important;
+}
+
+.mdl-mini-footer .mdl-logo {
+  line-height: 20px !important;
+}
+
+.mdl-mini-footer--link-list li {
+  line-height: 20px !important;
+}
+
+.cp-show-small-device {
+  display: none !important;
+}
+
+.cp-extra-padding {
+  padding: 8px;
+}
+
+.footer-link {
+  padding-right: 20px;
+}
+
+.footer-link:hover {
+  color: #eeeeee;
+}
+
+.cp-card-wide {
+  width: 100%;
+  min-height: 232px !important;
+}
+
+
+.mdl-textfield .mdl-button {
+  position: absolute;
+  bottom: 0px;
+}
+
+body {
+  background: #CACACA;
+}
+
+.mdl-layout__header{
+color:rgb(174, 174, 174)
+}
+.quick-links {
+  width: 200px;
+  padding-top: 10px;
+  clear: both;
+}
+
+.large-card {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  font-size: 16px;
+  min-height: 65%;
+  overflow: hidden;
+  width: 100%;
+  z-index: 1;
+  position: relative;
+  background: #fff;
+  border-radius: 2px;
+  box-sizing: border-box;
+
+}
+.chair {
+  margin-left: 50px;
+}
+.bottom-card {
+  position: absolute;
+  bottom: 0;
+}
+
+.about {
+  width: 95% !important;
+}
+
+.about-image {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+@media screen and (max-width: 850px) {
+
+    .cp-show-small-device {
+      display: block !important;
+    }
+
+}

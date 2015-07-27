@@ -1,0 +1,150 @@
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="ABCD">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ABCD</title>
+
+    <!-- Page styles -->
+    <link rel="stylesheet" href="https://storage.googleapis.com/code.getmdl.io/1.0.0/material.blue_grey-red.min.css" />
+    <script src="https://storage.googleapis.com/code.getmdl.io/1.0.0/material.min.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="abcd_styles.css"/>
+  </head>
+  <body>
+    <!-- Always shows a header, even in smaller screens. -->
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header" >
+      <header class="mdl-layout__header">
+        <div class="mdl-layout__header-row ">
+
+          <!-- Navigation. We hide it in small screens. -->
+          <nav class="mdl-navigation mdl-layout--large-screen-only" id="primary_nav_wrap">
+            <ul>
+            <li><a class="mdl-navigation__link selected"href="abcd.html">Home</a></li>
+            <li><a class="mdl-navigation__link" href="groups.html">Groups</a>
+              <div class="mega-menu">
+              <ul>
+                <div class="float-left mega-content">
+                <li><a href="#">ABCD Main</a></li>
+                <li><a href="#">BRIO</a></li>
+                <li><a href="#">Digital Publishing</a></li>
+                <li><a href="#">FileMaker</a></li>
+                <li><a href="#">GIS</a></li>
+                </div>
+                <div class="float-left mega-content">
+                <li><a href="#">Interactive</a></li>
+                <li><a href="#">Library</a></li>
+                <li><a href="#">Longwood Medical Area</a></li>
+                <li><a href="#">MS Windows</a></li>
+                <li><a href="#">Macintosh</a></li>
+                </div>
+                <div class="float-left mega-content">
+                <li><a href="#">Mobile</a></li>
+                <li><a href="#">Open Scholar</a></li>
+                <li><a href="#">Security</a></li>
+                <li><a href="#">Tech in Education</a></li>
+                <li><a href="#">Video/Multimedia</a></li>
+                </div>
+                <div class="float-left mega-content">
+                <li><a href="visualization.html">Visualization</a></li>
+                <li><a href="#">Women in Tech</a></li>
+                <li><a href="#">WWW</a></li>
+                <li><a href="#">Other Groups</a></li>
+                <li><a href="#">Defunct Groups</a></li>
+                </div>
+              </ul>
+            </div>
+            </li>
+
+          </ul>
+          </nav>
+          <!-- Add spacer, to align navigation to the right -->
+          <div class="mdl-layout-spacer"></div>
+          <!-- Title -->
+          <span class="mdl-layout-title logo" title="Harvard University's ABCD Committee"></span>
+
+      </header>
+
+      <main class="mdl-layout__content">
+        <div class="page-content">
+          <div class="mdl-grid">
+
+            <div class="mdl-cell mdl-cell--8-col mdl-cell--8-col-tablet">
+
+              <div class="mdl-grid">
+              <div class="mdl-card mdl-shadow--4dp cp-card-wide">
+                <div class="mdl-card__title">
+                 <h2 class="mdl-card__title-text">About ABCD</h2>
+               </div>
+                <div class="mdl-card__supporting-text about">
+                  ABCD is an informal, University-wide association promoting
+                  communication and collaboration on technology-related topics
+                  across organizational boundaries. All Harvard affiliates are
+                  eligible and welcome to join ABCD.
+                </div>
+                <div class="mdl-card__actions mdl-card--border">
+                  <img src="ABCD_images/1.png" alt="Building" height="75" width="100" class="about-image">
+                  <img src="ABCD_images/2.png" alt="Computer" height="75" width="120" class="about-image">
+                  <img src="ABCD_images/3.png" alt="Cake" height="75" width="110" class="about-image">
+                  <img src="ABCD_images/4.png" alt="Gate" height="75" width="110" class="about-image">
+                  <img src="ABCD_images/5.png" alt="Person" height="75" width="100" class="about-image">
+
+                </div>
+              </div>
+            </div>
+            </div>
+
+
+
+            <div class="mdl-cell mdl-cell--3-col mdl-cell--8-col-tablet cp-extra-padding">
+              <div class="mdl-card mdl-shadow--4dp">
+                <div class="mdl-card__supporting-text">
+                  <!-- Textfield with Floating Label -->
+
+                  <form action="#">
+                    <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label textfield-demo">
+                      <input class="mdl-textfield__input" type="text" id="sample3" />
+                      <label class="mdl-textfield__label" for="sample3">Username</label>
+                    </div>
+                  </form>
+                  <!-- Numeric Textfield with Floating Label -->
+                  <form action="#">
+                    <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label textfield-demo">
+                      <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="sample4" />
+                      <label class="mdl-textfield__label" for="sample4">Password</label>
+                      <span class="mdl-textfield__error">Incorrect Password!</span>
+                    </div>
+                  </form>
+                  <!-- Flat button with ripple -->
+                <a href="abcd.html">
+                  <button class="mdl-button mdl-js-button mdl-js-ripple-effect">
+                    Login
+                  </button>
+                </a>
+                  <a class="float-right new-account" href="#"> Create an account </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </main>
+
+
+
+    <footer class="mdl-mini-footer">
+      <div class="mdl-mini-footer--left-section">
+        <div class="mdl-logo">Title</div>
+      </div>
+      <div class="mdl-mini-footer--right-section">
+        <ul class="mdl-mini-footer--link-list ">
+          <li><a class="footer-link" href="http://www.harvard.edu/">Harvard Home Page</a></li>
+          <li><a class="footer-link"href="mailto:abcdhelp@abcd.harvard.edu">Help</a></li>
+          <li>Copyright 2015 by the President and Fellows of Harvard College</li>
+        </ul>
+      </div>
+    </footer>
+  </div>
+  </body>
+</html>
